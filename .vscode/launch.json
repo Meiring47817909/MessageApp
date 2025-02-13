@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug Angular application",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "name": "C#: API Debug",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/API.csproj"
+            "projectPath": "D:\\Udemy ASP.NET Web course\\MessageAppCourse\\demo\\MessageApp\\client\\src\\app"
         },
         {
             "name": ".NET Core Attach",
